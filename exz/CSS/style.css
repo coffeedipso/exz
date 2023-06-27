@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.name1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.name2{
+    margin-right: 200px;
+    margin-top: 50px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.chatcontainer{
+    border: solid 1px black;
+    width: 1000px;
+    height: 800px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    position: absolute;
+    bottom: 167px;
+    width: 998px;
+    height: 50px;
+}
+.btn{
+    position: absolute;
+    bottom: 167px;
+    left: 1392px;
+    height: 53px;
+}
+
+.choice1{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+}
+.choice2{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+}
+.mes{
+    display:flex ;
+    flex-direction: column;
+}
